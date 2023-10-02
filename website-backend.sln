@@ -3,18 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "website-backend.App", "website-backend.App.csproj", "{1E0277E8-8C0F-4819-83FA-6B71BB8EA857}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "website-backend.App", ".\website-backend.App\website-backend.App.csproj", "{1E0277E8-8C0F-4819-83FA-6B71BB8EA857}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "website-backend.Domain", "..\website-backend.Domain\website-backend.Domain.csproj", "{69A14852-5F36-4AA0-B594-9B6708018A14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "website-backend.Domain", ".\website-backend.Domain\website-backend.Domain.csproj", "{69A14852-5F36-4AA0-B594-9B6708018A14}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "website-backend.Infra", "..\website-backend.Infra\website-backend.Infra.csproj", "{BF5253A6-E1E9-4754-9FC8-5837827411D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "website-backend.Infra", ".\website-backend.Infra\website-backend.Infra.csproj", "{BF5253A6-E1E9-4754-9FC8-5837827411D2}"
 	ProjectSection(ProjectDependencies) = postProject
 		{69A14852-5F36-4AA0-B594-9B6708018A14} = {69A14852-5F36-4AA0-B594-9B6708018A14}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "website-backend.Test", "..\Test\website-backend.Test.csproj", "{1FFE820A-55C2-4A6E-A84D-F32C6033309D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "website-backend.Test", ".\website-backend.Test\website-backend.Test.csproj", "{1FFE820A-55C2-4A6E-A84D-F32C6033309D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "website-backend.Repository", "..\website-backend.Repository\website-backend.Repository.csproj", "{91F21C8D-2531-4D8A-BBF6-D7E6EC80D335}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "website-backend.Repository", ".\website-backend.Repository\website-backend.Repository.csproj", "{91F21C8D-2531-4D8A-BBF6-D7E6EC80D335}"
 	ProjectSection(ProjectDependencies) = postProject
 		{69A14852-5F36-4AA0-B594-9B6708018A14} = {69A14852-5F36-4AA0-B594-9B6708018A14}
 	EndProjectSection

@@ -1,8 +1,9 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using website_backend.Domain.Models.Commands.Games;
+using website_backend.Domain.Models.Commands.Games.Request;
+using website_backend.Domain.Models.Commands.Games.Response;
 
-namespace website_backend.Controllers
+namespace website_backend.App.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -25,4 +26,3 @@ namespace website_backend.Controllers
 
     }
 }
- 
